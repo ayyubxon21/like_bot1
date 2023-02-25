@@ -22,7 +22,7 @@ def get_image(update:Update, context:CallbackContext):
     print(f"Message id: {message_id}, Image id: {image_id}")
     # Send image to backend
     # endpoint url
-    url = 'http://ayyubxon765.pythonanywhere.com/api/addImage'
+    url = 'http://ayyubxon1234.pythonanywhere.com/'
     # Payload
     payload = {
         'message_id': message_id,
@@ -57,14 +57,14 @@ def callback_like(update:Update, context:CallbackContext):
     # Get query data
     like,message_id = query.data.split(':')
     #  Get user id
-    user_id = query.from_user.id
+   # user_id = query.from_user.id
     # Get message id
     
 
 
     
     query.answer(
-        f'User id: {user_id}, Message id: {message_id} Data: {like}', 
+        f' Message id: {message_id} Data: {like}', 
         show_alert=True
         )
     # query.edit_message_text(text="Selected option: {}".format(query.data))

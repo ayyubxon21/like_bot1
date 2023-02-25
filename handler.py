@@ -22,7 +22,7 @@ def get_image(update:Update, context:CallbackContext):
     print(f"Message id: {message_id}, Image id: {image_id}")
     # Send image to backend
     # endpoint url
-    url = 'http://motof.pythonanywhere.com/api/addImage'
+    url = 'http://ayyubxon765.pythonanywhere.com/api/addImage'
     # Payload
     payload = {
         'message_id': message_id,
@@ -42,7 +42,7 @@ def get_image(update:Update, context:CallbackContext):
 
 
     
-    channel_id = '@image_like'
+    channel_id = '@helloevryone11111'
     # Send image to channel
     context.bot.send_photo(
         chat_id=channel_id, 
@@ -68,5 +68,3 @@ def callback_like(update:Update, context:CallbackContext):
         show_alert=True
         )
     # query.edit_message_text(text="Selected option: {}".format(query.data))
-
-    

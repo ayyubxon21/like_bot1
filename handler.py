@@ -22,7 +22,7 @@ def get_image(update:Update, context:CallbackContext):
     print(f"Message id: {message_id}, Image id: {image_id}")
     # Send image to backend
     # endpoint url
-    url = 'http://ayyubxon1234.pythonanywhere.com/'
+    url = 'http://ayyubxon765.pythonanywhere.com/'
     # Payload
     payload = {
         'message_id': message_id,

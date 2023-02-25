@@ -27,5 +27,6 @@ def main():
     dp.process_update(update)
     return {"status":200}
 
-#if __name__ == '__main__':
+# if __name__ == '__main__':
 #   app.run(debug=True)
+#bot.set_webhook("https://ayyubxon1234.pythonanywhere.com/")
